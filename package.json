@@ -1,0 +1,11 @@
+{
+  "name": "healthcare-integration-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-name-pattern=Healthcare tests/*.test.mjs",
+    "check": "node --check assets/business-rules.mjs && node --check assets/lab-ui.mjs && node --check assets/readable.mjs"
+  },
+  "license": "MIT"
+}
