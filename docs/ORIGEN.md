@@ -1,11 +1,9 @@
-# Origen y mantenimiento
+# Origin and maintenance
 
-Este proyecto se independizó del catálogo [Enterprise Solutions Lab](https://github.com/krissortegal83/enterprise-solutions-lab), carpeta `healthcare-integration-lab`. El historial anterior sigue disponible en el catálogo; este repositorio empieza con una distribución autónoma de esa base.
+This independent distribution originated in [Enterprise Solutions Lab](https://github.com/krissortegal83/enterprise-solutions-lab), folder `healthcare-integration-lab`. The original history remains available in that catalog.
 
-Origen de las reglas: commit `dee209d68693e09b8e44faf2884f1fd195472a31`. La presentación en español y la organización se prepararon el 29 de octubre de 2026.
+The initial business rules came from commit `dee209d68693e09b8e44faf2884f1fd195472a31`. English is the default presentation language; Spanish summaries are provided separately.
 
-La interfaz y el archivo de reglas compartido se incluyen de forma local para que la demo funcione sin paquetes ni descargas adicionales. Hay funciones de otros ejemplos en ese archivo compartido; las pruebas de este repositorio se centran en **Healthcare**. Para cambiar reglas comunes, actualiza el catálogo, comprueba las pruebas y distribuye una versión revisada a los repositorios afectados. No hagas cambios paralelos sin registrar su procedencia.
+The shared presentation and business rules are included locally so the demo runs without external packages or repository dependencies. The shared rules file also contains other catalog examples; this repository's test command selects the relevant domain. Update common rules in the catalog, verify the tests and distribute a reviewed version to affected repositories. Record provenance when changing the shared base.
 
-## Alcance
-
-Demostración independiente con datos ficticios, preparada con ayuda de IA. No es un sistema de producción ni una integración contratada por un cliente. Revisa el alcance del catálogo y las reglas antes de reutilizarlo.
+This is an AI-assisted demonstration with fictional data, not a production system or a client deliverable.
